@@ -54,7 +54,7 @@ FOREIGN KEY(emp_no) REFERENCES employees(emp_no)
 
 SELECT * FROM salaries
 
-
+--run first!
 CREATE TABLE titles(
 title_id VARCHAR PRIMARY KEY NOT NULL,
 title VARCHAR NOT NULL
